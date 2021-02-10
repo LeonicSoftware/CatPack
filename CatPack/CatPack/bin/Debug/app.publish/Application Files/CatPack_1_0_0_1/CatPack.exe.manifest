@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CatPack.exe" version="1.0.0.1" publicKeyToken="f30a621b78faee29" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="logo_catpack_pTt_icon - Copia.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CatPack" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CatPack.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opzioni manifesto Controllo dell'account utente
+          Se si vuole modificare il livello di Controllo dell'account utente di Windows, sostituire il
+          nodo requestedExecutionLevel con uno dei seguenti.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Se si vuole usare Virtualizzazione file system e registro di sistema per la 
+         compatibilità con le versioni precedenti, eliminare il nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CatPack.exe" size="85480">
+      <assemblyIdentity name="CatPack" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>UGdToy8ZEOsYEnX6arn+Gpv+/LrT5SOMH0VWUaMhYms=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CatPack.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VDy5/VrQni+RSOb/6uEMWMc6bGQEaa2e2UdeWG+KK1I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="logo_catpack_pTt_icon - Copia.ico" size="35132">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>udVYA2xkzEY3KoYmVtxgkwMf+q55T06QNsqAM3ycPOk=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-RN9238AT\utente" issuerKeyHash="4002e038b5219c021f4c04c73bf109ddf5a9290d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>NFOC1woe97YDjnCyBpji0n3+RUKU0LrK2oH5e9Q6mNg=</DigestValue></Reference></SignedInfo><SignatureValue>a1KRKeuTkyh4dvuoA+XAmP1p0pqX3WYnpBB3UR0joNWeatiwY9tcx7yD1zbPir7m4k8JHLuvD0b/F2WmsDfdP7jFdr6zjyU7SgdLHmiMXLmQb+onzZQCjD7QEs6DLDZW0R9lqiOr9LzKCv27mnI+tU1Q5q2h6azczGZfDgn6vjw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2jy8P5/lPRwoaMISqi2BqmG3n1JoLKiU0ututnhKwTjroBbUHFL6gonll3j2yAxK4xGkKlRROso8EhFqR/P3oODveOMOaV80dbeJ4xViVMzJn4h/t6habuw9+J4vFkm/tX/VIpSX9kPNPhl/8Zhl2YbS7BYLcyBxIfJB9OkTPk0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d8983ad47bf981dacabad0944245fe7dd2e29806b2708e03b6f71e0ad7825334" Description="" Url=""><as:assemblyIdentity name="CatPack.exe" version="1.0.0.1" publicKeyToken="f30a621b78faee29" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-RN9238AT\utente</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>23YTQ5r0B3j24SVksfMlGFeAdmaAXQfxTumEqROZSqs=</DigestValue></Reference></SignedInfo><SignatureValue>DtoNFWFQMZeCfgmYFAa2Hld8Er9TTFDXl8gqiwS13923qYCQEYi7s1ClkR8TrIE3mc/objv5wrkwO0vRnKbhZL5cRBJguJEen9imfDgRjoHXiUYRaCLQgRLKSvwU8mKor1w6J+wjGvtoKPk6V3vlLa+C0jcm4Go8QUTsG7QwLjw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2jy8P5/lPRwoaMISqi2BqmG3n1JoLKiU0ututnhKwTjroBbUHFL6gonll3j2yAxK4xGkKlRROso8EhFqR/P3oODveOMOaV80dbeJ4xViVMzJn4h/t6habuw9+J4vFkm/tX/VIpSX9kPNPhl/8Zhl2YbS7BYLcyBxIfJB9OkTPk0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQG8bNCrlZoJRLY+Ulzg/oZDANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwATABBAFAAVABPAFAALQBSAE4AOQAyADMAOABBAFQAXAB1AHQAZQBuAHQAZTAeFw0yMTAxMTkxNDEwMjZaFw0yMjAxMTkyMDEwMjZaMDcxNTAzBgNVBAMeLABMAEEAUABUAE8AUAAtAFIATgA5ADIAMwA4AEEAVABcAHUAdABlAG4AdABlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDaPLw/n+U9HChowhKqLYGqYbefUmgsqJTS6262eErBOOugFtQcUvqCieWXePbIDErjEaQqVFE6yjwSEWpH8/eg4O944w5pXzR1t4njFWJUzMmfiH+3qFpu7D34ni8WSb+1f9UilJf2Q80+GX/xmGXZhtLsFgtzIHEh8kH06RM+TQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAG4g/ciMCIn+nvwPfBvlTcafZ6Wsq1uocowLWuToOVqHrwfXSY4xAUywYRtrD39Y+BSCyx5tA0ylZrDx4Bns/a1RQh6shgATngSkfyp7G2TLxtUY9GIGzZUpmLIxrwNGHzAfNfW4d04m8gv5JP/ucsjSuAeTVg7Znnez+VYl7zB3</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
